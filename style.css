@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,700&display=swap');
 body{
-    background-image: linear-gradient( 90deg,  rgba(255,157,129,1) 24.3%, rgba(255,78,78,1) 78.3% );
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 h1, h4 , p{
     text-align: center;
