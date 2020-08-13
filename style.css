@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300;1,700&display=swap');
+body{
+    background-image: linear-gradient( 90deg,  rgba(255,157,129,1) 24.3%, rgba(255,78,78,1) 78.3% );
+}
+h1, h4 , p{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.btn-nav{
+    /* border: 1px solid black; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-nav > button {
+    width: 200px;
+    height: 50px;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border: none;
+    border-radius: 8px;
+}
+
+#poke-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.poke-container{
+    /* border: solid 2px black; */
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    border-radius: 8px;
+    transition: transform 1s;
+}
+
+.poke-container:hover{
+    background-color: rgba(4, 1, 7, 0.897);
+    color: white;
+    transform: scale(1.2);
+}
+
+.img-poke{
+    display: flex;
+    justify-content: space-around;
+}
+
+.zoom-img{
+    width: 100px;
+    height: 100px;
+    transition: transform .5s;
+}
+
+.zoom-img:hover{
+    transform: scale(1.5);
+}
+
+/*--------------- Animaciones ------------ */
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+ @-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
